@@ -7,24 +7,9 @@
 <body>
 <?
 
-function headList($item) {
-    $str = "<ul>";
-    $a = 0;
+for ($a = 0; $a <= 9; print_r($a++) ) {
 
-    while ($a < count($item)) {
-        $str.="<li>$item[$a]</li>";
-
-
-        $a++;
-    }
-    $str.="</ul>";
-
-    return $str;
-}
-
-$items = ['Категории', 'Отзывы', 'Наши партнёры', 'Оптовикам', 'Акции'];
-
-echo headList($items);
+};
 
 ?>
 
