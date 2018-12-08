@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="ru">
 <head>
@@ -14,20 +13,30 @@ $photos = scandir("photos/");
 $count = 2;
 $eoa = count($photos);
 
-echo $eoa;
 
+while ($count < $eoa) {
+    $size = filesize("photos/$photos[$count]");
+    echo $size;
 
-while($count < $eoa){
-    getTag($photos[$count]);
+    if (getExp("$photos[$count]") == "jpg" && $size < 200000) {
+        getTag($photos[$count]);
+    }
+
     $count++;
 }
+
 
 function getTag($position) {
     echo $tagA = "<a href=\"photos/$position\" target=\"_blank\"><img class=\"one\" src=\"photos/$position\" width=\"500\" height=\"300\"></a>";
 }
 
-?>
+function getExp($direction) {
+    $info = new SplFileInfo("$direction");
+    $exp = ($info->getExtension());
+    return $exp;
+}
 
+?>
 
 
 <form method="POST" action="server.php" enctype="multipart/form-data">
