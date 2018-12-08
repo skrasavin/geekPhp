@@ -16,7 +16,6 @@ $eoa = count($photos);
 
 while ($count < $eoa) {
     $size = filesize("photos/$photos[$count]");
-    echo $size;
 
     if (getExp("$photos[$count]") == "jpg" && $size < 200000) {
         getTag($photos[$count]);
