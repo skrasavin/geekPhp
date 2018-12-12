@@ -1,5 +1,6 @@
 <?
 
+
 $server = "localhost";
 $login = "root";
 $password = "";
