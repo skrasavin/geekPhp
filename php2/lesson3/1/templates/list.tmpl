@@ -1,0 +1,12 @@
+<html>
+  <head></head>
+  <body>
+    <h2>Gallery</h2>
+    <ul>
+      {% for item in items %}
+        <a href="photos/{{ item }}" target="blank"><img src="photos/{{ item }}" width=300 height=200></a>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
+
