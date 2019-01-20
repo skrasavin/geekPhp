@@ -1,0 +1,1 @@
+<?php?>Пользователь - <?=$name?> вошёл в личный кабинет<a href="index.php"><button class="edit_button">Выход</button></a>
