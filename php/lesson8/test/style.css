@@ -1,0 +1,144 @@
+h1 {
+    text-align: center;
+}
+.big {
+    width: 980px;
+    height: 600px;
+    margin-left: 310px;
+}
+.bigCart {
+    width: 1280px;
+    height: 600px;
+    margin-left: 36px;
+}
+.bigUsers {
+    width: 1280px;
+    height: 600px;
+    margin-left: 36px;
+}
+.goods {
+    border:1px solid black;
+    width: 290px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+.nameGoods {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.priceGoods {
+    font-size: 17px;
+    margin-left: 210px;
+    font-weight: 700;
+}
+
+.el_1 {
+    position: absolute;
+    left: 374px;
+    top: -14px;
+    font-size: 24px;
+}
+.el_2 {
+    position: absolute;
+    left: 235px;
+    top: 40px;
+}
+.el_3 {
+    position: absolute;
+    width: 483px;
+    left: 790px;
+    top: 24px;
+    font-size: 18px;
+    text-align: left;
+
+}
+.el_4 {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+}
+.el_5 {
+    position: absolute;
+    left: 534px;
+    top: 382px;
+    font-size: 20px;
+}
+.el_6 {
+    position: absolute;
+    left: 611px;
+    top: 403px;
+    width: 125px;
+}
+.formGoods2 {
+    margin-top: 50px;
+}
+.blockForm {
+    position: absolute;
+    width: 300px;
+    top: 90px;
+    left: 120px;
+}
+.inputGoods {
+    margin-top: 10px;
+}
+.cartButton {
+    width: 100px;
+    height: 23px;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+.priceCart {
+    font-size: 17px;
+    margin-left: 197px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+.usersButton {
+    width: 145px;
+    height: 30px;
+    position: absolute;
+    top: 24px;
+    left: 851px;
+}
+.usersButton1 {
+    width: 134px;
+    height: 30px;
+    position: absolute;
+    top: 24px;
+    left: 1005px;
+}
+.usersButton2 {
+    width: 134px;
+    height: 30px;
+    position: absolute;
+    top: 24px;
+    left: 1147px;
+}
+.adminButton {
+    position: absolute;
+    left: 1174px;
+    top: 50px;
+    width: 69px;
+    height: 30px;
+}
+.adminButton1 {
+    width: 199px;
+    position: absolute;
+    left: 86px;
+    top: 90px;
+    height: 45px;
+
+}
+.adminButton2 {
+    width: 199px;
+    position: absolute;
+    left: 86px;
+    top: 150px;
+    height: 45px;
+}
+.tbut {
+    font-size: 20px;
+    margin-top: 7px;
+}
